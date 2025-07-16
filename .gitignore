@@ -1,0 +1,26 @@
+# 忽略模型文件夹
+taiwu-rag-bot/models/
+taiwu-rag-bot/tooles/models/
+taiwu-rag-bot/data/
+# 忽略所有 safetensors 模型权重文件
+*.safetensors
+
+# 忽略 tokenizer 和配置文件（如果你以后下载多个模型）
+*.json
+*.txt
+*.bin
+
+# 保留 requirements.txt 文件（防止被忽略）
+!requirements.txt
+
+# 忽略 PyCharm 或 VSCode 等 IDE 的配置
+.idea/
+.vscode/
+
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略日志
+*.log
